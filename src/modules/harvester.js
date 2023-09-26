@@ -1,3 +1,4 @@
+// 执行代码
 export function run(creep) {
     if (creep.store.getFreeCapacity() > 0) {
         let sources = creep.room.find(FIND_SOURCES);
